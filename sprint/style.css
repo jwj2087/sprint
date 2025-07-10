@@ -5,7 +5,6 @@
 }
 body{
   width: 100%;
-  height: 3608px;
   background: #FCFCFC;
 }
 ul, ol{list-style: none;}
@@ -152,7 +151,7 @@ section .wrap{
   cursor: pointer;
 }
 .banner img{
-  max-width: 588px;
+  max-width: 30.6250vw; /* 588px */
   width: 100%;
   height: auto;
   flex-shrink: 1;
@@ -200,6 +199,7 @@ section .wrap{
   align-items: flex-end;
   justify-content: center;
   margin-top: 138px;
+  padding: 0 200px;
 }
 .bottom h1{
   color: var(--Secondary-700, #374151);
@@ -210,7 +210,7 @@ section .wrap{
   line-height: 140%; /* 56px */
 }
 .bottom img{
-  max-width: 746px;
+  max-width: 38.8542vw; /* 746px */
   width: 100%;
   height: auto;
   flex-shrink: 1;
